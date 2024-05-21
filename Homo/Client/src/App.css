@@ -1,0 +1,64 @@
+/* Set a black background for the entire page */
+body {
+  background-color: #474747; /* Black background color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Define a font-family for the entire page */
+}
+
+/* CSS for centering the container */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Adjust to center vertically in the viewport */
+}
+
+/* Neumorphic container */
+.neumorphic-container {
+  background-color: #333; /* Background color */
+  border-radius: 15px; /* Adjust as needed */
+  padding: 20px;
+  box-shadow: 10px 10px 20px #1a1a1a, -10px -10px 20px #474747; /* Adjust shadow values */
+  max-width: 400px; /* Adjust the maximum width of the container */
+}
+
+/* Neumorphic input style */
+.neumorphic-input {
+  background-color: #333; /* Background color */
+  border: none;
+  border-radius: 10px; /* Adjust as needed */
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #474747; /* Adjust shadow values */
+  width: 90%; /* Width of input */
+  color: white;
+}
+
+/* Neumorphic button style */
+.neumorphic-button {
+  background-color: #333; /* Background color */
+  border: none;
+  border-radius: 10px; /* Adjust as needed */
+  padding: 10px 20px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #474747; /* Adjust shadow values */
+  color: white; /* Text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Center the submit button */
+.form-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.neumorphic-button:hover {
+  background-color: #1a1a1a; /* Hover background color */
+}
+
+/* Other styles for your form header and title */
+.widget-header h4 {
+  color: white; /* Title text color */
+}

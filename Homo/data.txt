@@ -1,0 +1,12 @@
+Data : Give any name
+index.js >> 20
+
+CREATE TABLE `patients` (
+  `blood_presure` longblob DEFAULT NULL,
+  `blood_sugar` longblob DEFAULT NULL,
+  `blood_type` longblob DEFAULT NULL,
+  `blood_count` longblob DEFAULT NULL,
+  `height` longblob DEFAULT NULL,
+  `weight` longblob DEFAULT NULL,
+  `age` longblob DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
